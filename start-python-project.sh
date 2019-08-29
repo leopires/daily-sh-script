@@ -51,7 +51,7 @@ git commit -m "'$PROJECT_NAME' initial commit."
 
 git branch develop
 
-echo "Project stated. Now create the remote repository to push your work."
+echo "Project started. Now, create the remote repository to push your work."
 
 ls -lah $PROJECT_FULL_PATH
 
