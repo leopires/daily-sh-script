@@ -45,6 +45,14 @@ touch README.md
 
 curl --url "https://www.gitignore.io/api/git,osx,linux,python,windows,textmate,notepadpp,pycharm+all,sublimetext,visualstudiocode,jupyternotebooks" > .gitignore
 
+mkdir $PROJECT_NAME
+
+touch "$PROJECT_FULL_PATH/$PROJECT_NAME/.gitkeep"
+
+mkdir "test"
+
+touch "$PROJECT_FULL_PATH/test/.gitkeep"
+
 git add .
 
 git commit -m "'$PROJECT_NAME' initial commit."
