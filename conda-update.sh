@@ -15,4 +15,6 @@ conda update --all -y
 
 conda clean --all -y
 
+conda list
+
 exit 0
