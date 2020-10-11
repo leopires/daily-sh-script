@@ -43,7 +43,7 @@ git init
 
 echo "### ${PROJECT_NAME}" > README.md
 
-curl --url "https://www.gitignore.io/api/osx,git,linux,flask,django,python,windows,textmate,notepadpp,sublimetext,pycharm+all,jupyternotebooks,visualstudiocode" > .gitignore
+curl -L --url "https://www.gitignore.io/api/osx,git,linux,flask,django,python,windows,textmate,notepadpp,sublimetext,pycharm+all,jupyternotebooks,visualstudiocode" > .gitignore
 
 mkdir $PROJECT_NAME
 
